@@ -12,3 +12,7 @@ p{
     color: red;
 }
 
+.gene-list{
+    list-style-type: square;
+    color: darkblue;
+}
