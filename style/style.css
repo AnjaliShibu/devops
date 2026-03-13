@@ -16,3 +16,18 @@ p{
     list-style-type: square;
     color: darkblue;
 }
+
+.gene-list{
+    margin-bottom: 10px;
+}
+
+.card{
+    border: 1px black;
+    padding: 20px;
+    margin: 20px;
+    background-color: lightgray;
+}
+
+.card h2{
+    text-align: center;
+}
