@@ -53,6 +53,26 @@ button{
     cursor: pointer;
 }
 
+form{
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ grid-column: 2/4;
+ grid-template-areas: none;
+}
+
+form{
+        display: grid;
+    grid-template-columns: 120px 2fr  auto;
+    gap: 10px; 
+    justify-content: center;
+    flex-flow:row;
+    flex-basis: 200pc;
+    grid-template-columns: repeat(4, 1fr auto);
+}
+
+
+
+
 
 
 
