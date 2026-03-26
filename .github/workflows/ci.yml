@@ -21,6 +21,9 @@ jobs:
       - name: Step_2
         run: echo "this is my step two"
 
+      - name: breaking step
+        run: exit 1
+
 
 
 
