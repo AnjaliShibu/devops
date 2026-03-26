@@ -1,0 +1,48 @@
+.layout{
+    display: grid;
+    grid-template-columns: 200px 1fr 150px;
+    grid-template-areas: 
+    "header header header"
+    "nav main aside"
+    "footer footer footer";
+}
+
+header{
+    grid-area: header;
+    background: lightblue;
+    padding: 20px;
+}
+nav{
+    grid-area: nav;
+    background: lightcoral;
+    padding: 20px;
+
+}
+main{
+    grid-area: main;
+    background: lightgray;
+    padding: 20px;
+}
+aside{
+    grid-area: aside;
+    background: lightgreen;
+    padding: 20px;
+
+}
+footer{
+    grid-area: footer;
+    background: lightpink;
+    padding: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
