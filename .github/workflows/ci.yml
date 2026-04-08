@@ -3,6 +3,8 @@ name: Simple CI Pipeline
 on:
   push:
     branches: [ "main" ]
+  pull_request:
+    branches: ["main"]
 
 jobs:
   build:
@@ -24,12 +26,7 @@ jobs:
       - name: Step_3
         run: echo "Pipeline is fixed"
 
-on:
-  push:
-    branches: ["main"]
-    
-  pull_request:
-    branches: ["main"]
+
 
 
 
