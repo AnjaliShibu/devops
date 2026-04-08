@@ -27,6 +27,9 @@ jobs:
       - name: Step_3
         run: echo "Commit is done"
 
+      - name: Build Docker Image
+        run: docker build -t devops .
+
 
 
 
